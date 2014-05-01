@@ -21,7 +21,7 @@ class RoomsController < ApplicationController
 
 		if @room.save
 			flash[:sucess] = "You have added this room"
-			redirect_to room_path
+			redirect_to root_path
 		else
 			render "new"
 			
