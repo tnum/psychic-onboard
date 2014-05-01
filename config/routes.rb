@@ -6,6 +6,11 @@ Rails.application.routes.draw do
   # sign up
   resources :users
 
+  # log in and log out
+  # singular resouce because we only want to do this once - would be the same as profile/account settings
+  # hence the use of sigular"resource" and "session"
+  resource :session
+
   # home page is the list of rooms
   root "rooms#index"
 
