@@ -42,7 +42,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'activeadmin', github: 'gregbell/active_admin'
 
 # make forms easier to build
-gem 'simle_form'
+gem 'simple_form'
 
 # for placing the rooms on a map
 gem 'geocoder'
