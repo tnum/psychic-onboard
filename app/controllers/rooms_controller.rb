@@ -56,6 +56,6 @@ class RoomsController < ApplicationController
 
 	def room_params
 		# make sure the form data isn't hacked
-		params.require(:room).permit(:name, :address, :description, :number_of_guests)
+		params.require(:room).permit(:name, :address, :description, :number_of_guests, :image)
 	end
 end
