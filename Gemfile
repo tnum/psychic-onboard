@@ -27,7 +27,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
 
 # Use unicorn as the app server
 # gem 'unicorn'
@@ -37,4 +37,29 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+# add CMS
+gem 'activeadmin', github: 'gregbell/active_admin'
+
+# make forms easier to build
+gem 'simle_form'
+
+# for placing the rooms on a map
+gem 'geocoder'
+
+# social logins
+gem 'omniauth'
+gem 'omniauth-facebook'
+gem 'omniauth-twitter'
+gem 'omniauth-linkedin'
+
+# for image and file uploads 
+gem 'paperclip'
+
+# for payments on orders
+gem 'stripe'
+
+# layout for onboard
+gem 'steer'
+
 
