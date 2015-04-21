@@ -60,6 +60,6 @@ gem 'paperclip'
 gem 'stripe'
 
 # layout for onboard
-gem 'steer'
+gem 'steer', '~> 0.0.4'
 
 

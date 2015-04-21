@@ -1,3 +1,56 @@
 // Place all the styles related to the rooms controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background: url("excellent-master-bedroom.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 2px 1px #222;
+}
+
+header {
+  max-width: 960px;
+  margin: 0 auto;
+  h1 {
+    text-align: center;
+    a {
+      text-align: center;
+      text-decoration: none;
+      color: #fff;
+      font-size: 2em;
+      font-family: 'Copperplate Gothic Light', sans-serif;
+      text-shadow: 1px 2px 1px #222;
+    }
+  }
+  nav {
+    width: 150px;
+    background: #007a87;
+    ul {
+      padding: 0;
+      li {
+        list-style: none;
+        color: #fff;
+        padding: 7px;
+        font-family: 'Copperplate Gothic Light', sans-serif;
+        text-align: center;
+        a {
+          font-family: ‘Arial Black’, Gadget, sans-serif;
+          color: #fff;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
